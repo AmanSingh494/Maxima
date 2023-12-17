@@ -1,0 +1,25 @@
+;xor
+inp
+sta A
+inp
+sta B
+and A
+cma
+sta C
+and A
+cma
+sta A
+lda C
+and B
+cma
+sta B
+lda A
+and B
+cma 
+out 
+hlt
+
+A: .data 3 0
+B: .data 1 0
+C: .data 1 0
+SUM: .data 1 0

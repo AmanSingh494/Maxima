@@ -1,0 +1,8 @@
+inp
+sta A
+inp
+add A
+out
+hlt
+
+A: .data  1 0

@@ -1,0 +1,11 @@
+inp    ;logical
+sta A
+inp
+and A
+out
+hlt
+
+A: .data 3 0
+B: .data 1 0
+C: .data 1 0
+SUM: .data 1 0

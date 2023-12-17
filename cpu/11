@@ -1,0 +1,18 @@
+start:inp     ;11
+sta A
+sza
+bun Done
+lda SUM
+add A
+sta SUM
+bun start
+
+Done:
+lda SUM
+out
+hlt
+
+A: .data 3 0
+B: .data 1 0
+C: .data 1 0
+SUM: .data 1 0
